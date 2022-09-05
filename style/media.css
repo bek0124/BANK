@@ -1,0 +1,360 @@
+@media(max-width:1330px) {
+    .offer__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .app__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .app__right {
+        gap: 30px;
+    }
+}
+@media(max-width:1320px) {
+    .valuta {
+        align-items: center;
+        margin-top: 60px;
+    }
+    .valuta__box {
+        justify-content: center;
+    }
+    .valuta__title {
+        text-align: center;
+        margin: 15px 0;
+    }
+    .valuta__box {
+        gap: 15px;
+    }
+}
+@media(max-width:1250px) {
+    .intro {
+        height: 500px;
+    }
+    .intro__title {
+        font-size: 35px;
+        line-height: 120%;
+    }
+    .intro__info img {
+        width: 500px;
+    }
+    .intro__item {
+        width: 500px;
+        height: 60px;
+    }
+    .intro__item img {
+        width: 120px;
+    }
+}
+@media(max-width:950px) {
+    .intro {
+        height: 400px;
+    }
+    .intro__title {
+        font-size: 28px;
+        text-align: center;
+    }
+    .intro__info {
+        flex-direction: column;
+    }
+    .intro__info img {
+        width: 400px;
+    }
+    .intro__item {
+        width: 400px;
+        height: 45px;
+    }
+    .intro__item img {
+        width: 100px;
+    }
+    .card img {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+@media(max-width:900px) {
+    .menu {
+        display: block;
+    }
+    .nav__info {
+        display: none;
+    }
+    .valuta img {
+        max-width: 450px;
+        width: 100%;
+    }
+    .valuta__title {
+        font-size: 25px;
+    }
+}
+@media(max-width:800px) {
+    .valuta {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .valuta__info {
+        max-width: 340px;
+        width: 100%;
+    }
+    .card {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .card__item {
+        justify-content: center;
+    }
+}
+@media(max-width:650px) {
+    .app__box {
+        gap: 15px;
+    }
+    .app__left {
+        max-width: 400px;
+        width: 100%;
+        padding-top: 15px;
+    }
+    .app__left img {
+        max-width: 250px;
+        width: 100%;
+    }
+    .app__title {
+        font-size: 22px;
+        line-height: 120%;
+        text-align: center;
+    }
+    .app__right {
+        max-width: 400px;
+        width: 100%;
+        gap: 15px;
+    }
+    .app__card {
+        height: 150px;
+        gap: 30px;
+        padding: 15px;
+    }
+    .app__card:nth-of-type(1) .app__title,
+    .app__card:nth-of-type(2) .app__title {
+        margin: 0;
+    }
+    .app__card:nth-of-type(1) img {
+        width: 100px;
+    }
+    .app__card:nth-of-type(2) img {
+        width: 60px;
+    }
+    .app__link {
+        width: 200px;
+        height: 50px;
+    }
+    .app__link img {
+        width: 100px;
+    }
+    .app__link:first-of-type {
+        margin-right: 15px;
+    }
+    .app__info {
+        margin: 15px 0;
+    }
+    .footer img {
+        width: 200px;
+    }
+}
+@media(max-width:600px) {
+    .nav {
+        padding: 10px 0;
+    }
+    .intro {
+        height: max-content;
+    }
+    .menu span {
+        width: 30px;
+        height: 2px;
+    }
+    .intro__title {
+        font-size: 20px;
+    }
+    .intro__info img {
+        max-width: 300px;
+        width: 100%;
+    }
+    .intro__item {
+        width: 300px;
+        height: 35px;
+    }
+    .intro__item img {
+        width: 70px;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .valuta img {
+        width: 350px;
+    }
+}
+@media(max-width:550px) {
+    .offer__card {
+        padding: 15px;
+    }
+    .offer__title {
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .offer__text {
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .offer__text:last-of-type {
+        margin-bottom: 10px;
+    }
+    .link {
+        width: 140px;
+        height: 30px;
+    }
+    .offer__card:first-of-type img {
+        width: 90px;
+    }
+    .offer__card:last-of-type .offer__text {
+        margin-bottom: 10px;
+    }
+    .offer__card:last-of-type .offer__title {
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 25px;
+        margin: 20px 0;
+        line-height: 120%;
+    }
+}
+@media(max-width:400px) {
+    .valuta img {
+        width: 300px;
+    }
+    .card__text span {
+        margin: 0;
+    }
+    .card__title {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .card__subtitle {
+        font-size: 18px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .card__text {
+        font-size: 14px;
+        line-height: 120%;
+        margin-bottom: 10px;
+    }
+    .link {
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .card__link {
+        font-size: 14px;
+        line-height: 120%;
+        margin-left: 15px;
+    }
+    .offer__card {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .link {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .offer__link {
+        margin-top: 15px;
+    }
+    .offer__box {
+        gap: 15px;
+    }
+    .app__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .app__left img {
+        width: 200px;
+    }
+    .app__card {
+        height: 120px;
+        gap: 15px;
+    }
+    .app__card:nth-of-type(1) img {
+        width: 80px;
+    }
+    .app__card:nth-of-type(2) img {
+        width: 50px;
+    }
+    .app__link {
+        width: 140px;
+        height: 35px;
+    }
+    .app__link img {
+        width: 75px;
+    }
+    .footer img{
+        width: 160px;
+    }
+    .footer__text{
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 250px;
+    }
+}
+@media(max-width:350px) {
+    .intro__item {
+        max-width: 250px;
+        height: 30px;
+    }
+    .intro__item img {
+        width: 60px;
+    }
+
+    .intro__title {
+        font-size: 16px;
+    }
+    .valuta__item {
+        width: 270px;
+        height: 50px;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .valuta__icon {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    .valuta__line {
+        width: 30px;
+    }
+    .valuta__cost {
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .valuta__title {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .valuta__box {
+        gap: 10px;
+    }
+    .valuta img {
+        width: 250px;
+    }
+}
